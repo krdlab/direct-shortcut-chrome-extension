@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "direct shortcut chrome extension",
+  "version": "0.1",
+  "description" : "direct にショートカットを追加する拡張です",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "js": ["js/navbar.js"],
+    "matches": ["https://direct4b.com/home"]
+  }]
+}
