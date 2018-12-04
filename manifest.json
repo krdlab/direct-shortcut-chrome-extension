@@ -3,6 +3,9 @@
   "name": "direct shortcut chrome extension",
   "version": "0.1",
   "description" : "direct にショートカットを追加する拡張です",
+  "permissions": [
+    "storage"
+  ],
   "browser_action": {
     "default_popup": "popup.html"
   },
